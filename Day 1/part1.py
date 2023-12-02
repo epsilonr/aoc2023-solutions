@@ -6,7 +6,7 @@ import os
 if __name__  == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-    with open("input.txt") as f:
+    with open("./input/input.txt") as f:
         lines = f.readlines()
 
     sum = 0
